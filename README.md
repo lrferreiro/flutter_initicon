@@ -11,7 +11,7 @@ Initicon are used to show the initials of the name of users who do not have an a
 ### Adding package
 
 ```yaml
-flutter_initicon: ^1.0.0
+flutter_initicon: ^1.0.1
 ```
 
 ### Importing package

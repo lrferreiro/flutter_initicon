@@ -10,7 +10,7 @@ extension on String {
       }
     });
 
-    return result.toUpperCase();
+    return result.trim().toUpperCase();
   }
 }
 
@@ -48,7 +48,7 @@ class Initicon extends StatelessWidget {
                 (HSLColor.fromColor(backgroundColor).lightness < 0.8
                     ? Colors.white
                     : Colors.black87),
-            fontSize: size / 2.5,
+            fontSize: size / (text.initials().length == 2 ? 2.5 : 1.8),
           ),
         ),
       ),
