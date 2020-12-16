@@ -5,6 +5,12 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 Initicon are used to show the initials of the name of users who do not have an avatar or profile image.
+## Screenshot
+
+|              Examples               |
+| :-----------------------------: |
+| ![](screenshot/screenshot-1.png) |
+
 
 ## Getting Started
 
