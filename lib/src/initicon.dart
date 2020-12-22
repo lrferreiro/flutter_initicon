@@ -17,6 +17,8 @@ extension on String {
 class Initicon extends StatelessWidget {
   final String text;
   final Color backgroundColor;
+
+  /// Font color by default is smart. If background color is dark, the font color is white, else is black.
   final Color color;
   final double size;
   final BorderRadiusGeometry borderRadius;

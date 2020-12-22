@@ -1,7 +1,6 @@
 # flutter_initicon
 
-[![pub package](https://img.shields.io/pub/v/flavor.svg)](https://pub.dartlang.org/packages/flutter_initicon)
-[![Star on GitHub](https://img.shields.io/github/stars/lrferreiro/flutter_initicon.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/lrferreiro/flutter_initicon)
+[![pub package](https://img.shields.io/pub/v/flutter_initicon.svg)](https://pub.dev/packages/flutter_initicon)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 Initicon are used to show the initials of the name of users who do not have an avatar or profile image.
@@ -17,7 +16,7 @@ Initicon are used to show the initials of the name of users who do not have an a
 ### Adding package
 
 ```yaml
-flutter_initicon: ^1.0.1
+flutter_initicon: ^1.0.3
 ```
 
 ### Importing package

@@ -1,3 +1,7 @@
+## [1.0.3] 
+
+- Fix bugs
+
 ## [1.0.2] 
 
 - Added example folder
