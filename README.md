@@ -67,6 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
             body: Center(
                 child: Initicon(
                   text: "Full Name",
+                  elevation: 4
                 ),
             ),
         );

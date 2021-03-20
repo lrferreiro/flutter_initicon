@@ -121,6 +121,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 size: 55,
               ),
             ),
+            Padding(
+              padding: EdgeInsets.all(3),
+              child: Initicon(
+                text: "Elevation",
+                elevation: 4,
+                backgroundColor: Colors.grey.shade300,
+              ),
+            ),
           ],
         ),
       ),

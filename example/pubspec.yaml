@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.0
+  cupertino_icons: ^1.0.2
   flutter_initicon:
     path: "../../flutter_initicon"
 

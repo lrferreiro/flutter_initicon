@@ -1,3 +1,7 @@
+## [1.1.0]
+
+- Added elevation property
+
 ## [1.0.3] 
 
 - Fix bugs
