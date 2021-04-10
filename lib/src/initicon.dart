@@ -15,17 +15,17 @@ extension on String {
 }
 
 class Initicon extends StatelessWidget {
-  final String text;
+  final String? text;
   final Color backgroundColor;
 
   /// Font color by default is smart. If background color is dark, the font color is white, else is black.
-  final Color color;
+  final Color? color;
   final double size;
-  final BorderRadiusGeometry borderRadius;
+  final BorderRadiusGeometry? borderRadius;
   final double elevation;
 
   const Initicon({
-    Key key,
+    Key? key,
     this.text,
     this.backgroundColor = Colors.grey,
     this.color,
@@ -46,13 +46,13 @@ class Initicon extends StatelessWidget {
         height: size,
         child: Center(
           child: Text(
-            text.initials(),
+            text!.initials(),
             style: TextStyle(
               color: color ??
                   (HSLColor.fromColor(backgroundColor).lightness < 0.8
                       ? Colors.white
                       : Colors.black87),
-              fontSize: size / (text.initials().length == 2 ? 2.5 : 1.8),
+              fontSize: size / (text!.initials().length == 2 ? 2.5 : 1.8),
             ),
           ),
         ),
