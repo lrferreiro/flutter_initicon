@@ -1,80 +1,39 @@
-# flutter_initicon
+<!-- 
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
 
-[![pub package](https://img.shields.io/pub/v/flutter_initicon.svg)](https://pub.dev/packages/flutter_initicon)
-[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
 
-Initicon are used to show the initials of the name of users who do not have an avatar or profile image.
-## Screenshot
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/guides/libraries/create-library-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/developing-packages). 
+-->
 
-|              Examples               |
-| :-----------------------------: |
-| ![](screenshot/screenshot-1.png) |
+TODO: Put a short description of the package here that helps potential users
+know whether this package might be useful for them.
 
+## Features
 
-## Getting Started
+TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-### Adding package
+## Getting started
 
-```yaml
-flutter_initicon: ^2.0.0
-```
+TODO: List prerequisites and provide or point to information on how to
+start using the package.
 
-### Importing package
+## Usage
 
-```yaml
-import 'package:flutter_initicon/flutter_initicon.dart';
-```
-
-## Example
+TODO: Include short and useful examples for package users. Add longer examples
+to `/example` folder. 
 
 ```dart
-import 'package:flutter/material.dart';
-
-void main() {
-    return runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-    @override
-    Widget build(BuildContext context) {
-        return MaterialApp(
-                title: 'Flutter Demo',
-                theme: ThemeData(
-                    primarySwatch: Colors.blue,
-                ),
-                home: MyHomePage(title: 'Flutter Demo Home Page'),
-            );
-    }
-}
-
-class MyHomePage extends StatefulWidget {
-    MyHomePage({Key key, this.title}) : super(key: key);
-
-    final String title;
-
-    @override
-    _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-    
-    @override
-    Widget build(BuildContext context) {
-        return Scaffold(
-            appBar: AppBar(
-                title: Text(widget.title),
-            ),
-            body: Center(
-                child: Initicon(
-                  text: "Full Name",
-                  elevation: 4
-                ),
-            ),
-        );
-    }
-}
+const like = 'sample';
 ```
 
-## License
+## Additional information
 
-    MIT License
+TODO: Tell users more about the package: where to find more information, how to 
+contribute to the package, how to file issues, what response they can expect 
+from the package authors, and more.
