@@ -93,12 +93,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundColor: Colors.red,
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(3),
+            const Padding(
+              padding: EdgeInsets.all(3),
               child: Initicon(
                 text: "Default",
                 backgroundColor: Colors.blue,
-                color: Colors.black,
+                style: TextStyle(
+                  color: Colors.black,
+                ),
               ),
             ),
             const Padding(

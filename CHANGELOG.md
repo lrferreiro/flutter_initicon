@@ -1,7 +1,10 @@
+## 3.0.0+1
+
+- Removed Color attribute from widgte
+
 ## 3.0.0
 
 - Migrated to Flutter 3
-- Removed Color attribute from widgte
 - Added Border attribute to widget
 - Added TextStyle attribute to widget
 

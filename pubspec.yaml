@@ -1,6 +1,6 @@
 name: flutter_initicon
 description: Initicon are used to show the initials of the name of users who do not have an avatar or profile image.
-version: 3.0.0
+version: 3.0.0+1
 homepage: https://github.com/lrferreiro/flutter_initicon
 
 environment:

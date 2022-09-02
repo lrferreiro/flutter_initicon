@@ -17,9 +17,6 @@ extension on String {
 class Initicon extends StatelessWidget {
   final String text;
   final Color backgroundColor;
-
-  /// Font color by default is smart. If background color is dark, the font color is white, else is black.
-  final Color? color;
   final double size;
   final BorderRadiusGeometry? borderRadius;
   final double elevation;
@@ -30,7 +27,6 @@ class Initicon extends StatelessWidget {
     Key? key,
     required this.text,
     this.backgroundColor = Colors.grey,
-    this.color,
     this.size = 45,
     this.borderRadius,
     this.elevation = 0,
@@ -55,7 +51,7 @@ class Initicon extends StatelessWidget {
         child: Center(
           child: DefaultTextStyle(
             style: TextStyle(
-              color: color ?? _color,
+              color: _color,
               fontSize: _fontSize,
             ),
             child: Text(
