@@ -1,3 +1,7 @@
+## 3.0.1
+
+- The background color is optional and now depends on the input text or override it.
+
 ## 3.0.0+1
 
 - Removed Color attribute from widgte
